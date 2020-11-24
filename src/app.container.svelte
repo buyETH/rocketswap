@@ -17,6 +17,12 @@
   </div>
 </main>
 
+<svelte:head>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</svelte:head>
+
 <style>
   main {
     height: 100%;
@@ -27,7 +33,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(233, 43, 247, 0.433), rgba(0, 0, 0, 0));
+    background-image: radial-gradient(rgba(245, 235, 253, 0.801) , rgb(255, 255, 255));
   }
 
   .bg-solid {
